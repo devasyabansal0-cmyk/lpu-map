@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LPU SmartMap</title>
+
+    <!-- CSS will be added later -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <div class="logo">
+            <h1>LPU SmartMap</h1>
+            <p>Find it. Navigate it. Reach it.</p>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#map">Map</a>
+            <a href="#places">Places</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME SECTION ================= -->
+    <section id="home">
+
+        <div class="home-content">
+
+            <h2>Welcome to LPU SmartMap</h2>
+
+            <p>
+                Find buildings, classrooms, laboratories, hostels,
+                food courts and other important locations on the LPU campus.
+            </p>
+
+            <button>
+                Explore Campus
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SEARCH SECTION ================= -->
+    <section id="search">
+
+        <h2>Find a Place</h2>
+
+        <form>
+
+            <label for="searchBox">
+                Search location
+            </label>
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search Block, Library, Hostel..."
+            >
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= MAP SECTION ================= -->
+    <section id="map">
+
+        <h2>Interactive Campus Map</h2>
+
+        <p>
+            Select a location on the map to view its details.
+        </p>
+
+        <!-- Map will be added here later -->
+        <div id="campus-map">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+    <section id="categories">
+
+        <h2>Explore by Category</h2>
+
+        <div class="category-container">
+
+            <button>Academic Blocks</button>
+
+            <button>Laboratories</button>
+
+            <button>Library</button>
+
+            <button>Hostels</button>
+
+            <button>Food & Cafeteria</button>
+
+            <button>Medical</button>
+
+            <button>Sports</button>
+
+            <button>Administration</button>
+
+            <button>Parking</button>
+
+        </div>
+    </section>   
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
